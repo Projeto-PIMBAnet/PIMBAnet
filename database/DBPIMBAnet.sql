@@ -16,4 +16,8 @@ estado VARCHAR(100),
 latencia DOUBLE,
 tempo TIME,
 FOREIGN KEY (id_dispositivo) REFERENCES dispositivos(id)
-)
+);
+
+ALTER TABLE dispositivos MODIFY endereco_ip VARCHAR(20);
+
+select * from dispositivos
