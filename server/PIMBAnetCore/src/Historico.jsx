@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import './styles/global.css';
+import './styles/historico.css';
 
 export default function Historico() {
 	const [dispositivos, setDispositivos] = useState([]);
