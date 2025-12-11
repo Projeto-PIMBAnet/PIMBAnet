@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Historico from "./Historico";
+import './styles/global.css';
+import './styles/historico.css'
 
 function App() {
 	const [nome, setNome] = useState("");
